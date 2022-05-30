@@ -49,6 +49,9 @@ h1{
 .invalido{
     border: red solid 1px;
 }
+.valido{
+    border: green solid 1px;
+}
 
 .tituloDiv{
      color: black;
