@@ -16,7 +16,7 @@ submit.addEventListener("click",function(){
     titulo.value===""?titulo.className="invalido":titulo.className="valido"
     descricao.value===""?descricao.className="invalido":descricao.className="valido"
     url.value===""?url.className="invalido":url.className="valido"
-    colocarCard()   
+    titulo.value==="" || descricao.value==="" || url.value===""? "":colocarCard()
 })
     
         
